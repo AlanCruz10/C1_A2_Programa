@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="AsianFoodStyles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Corea.com</title>
+</head>
+<body onload="comentar()">
+  <header>
+    <div>
+      <a href="AsianFood.html"><img src="imagenes/logo11.png" alt="Logo"></a>
+    </div>
+    <div id="menuC">
+     <a href="china.html"><button class="MenuB">China</button></a>
+     <a href="corea.html"><button id="visible">Corea</button></a>
+      <a href="india.html"><button class="MenuB">India</button></a>
+      <a href="japon.html"><button class="MenuB">Japón</button></a>
+      <a href="tailandia.html"><button class="MenuB">Tailandia</button></a>
+      <a href="vietnam.html"><button class="MenuB">Vietnam</button></a>
+  </div>
+  </header>
+    <div class="tutoriales">
+      <section> 
+          <div class="row">
+              <h1>¿CÓMO HACER KIMCHI?</h1>
+              <div class="columna">
+                <div class="p">
+                  <ul>
+                        <h2>Ingredientes</h2>
+                        <br>
+                          <li>2 piezas de Chicoria o col china</li>
+                          <li>1 a 2 tazas de Sal de grano</li>
+                          <li>1 pieza de Zanahoria</li>
+                          <li>1/4 pieza de Nabo</li>
+                          <li>4 piezas de Cebollín o cebolla cambray</li>
+                          <li>30 a 40g de Chile guajillo</li>
+                          <li>1/4 pieza de Cebolla</li>
+                          <li>1 pedazo chico de Jengibre</li>
+                          <li>2 a 3 dientes de Ajo</li>
+                          <li>1/2 taza de Agua</li>
+                          <li>3 a 4 cucharadas de Azúcar</li>
+                          <li>1 taza de Gochugaru. (chile en polvo coreano)</li>
+                          <li>Ajonjolí tostado</li>
+                          <li>1/4 taza de Salsa de pescado</li>
+                      </ul>
+                </div>
+              </div>
+            <div class="columna">
+                <h2>Procedimiento</h2>
+                <div class="container-slider">
+                  <iframe width="610" height="315" src="https://www.youtube.com/embed/KsP1hFmsUfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+          </div>
+      </section>
+      <div>
+        <textarea id="comentarios" readonly cols="40" rows="10"></textarea>
+      </div>
+    </div>
+
+    <div class="comentario">
+      <div>
+        <h3>Comentarios</h3>
+      </div>
+      <div id="textArea">
+        <textarea id="contenido" rows="4" cols="70"></textarea>        
+        <button id="botonE" onclick="comentar()"> Enviar </button>
+    </div>
+    </div>
+    <footer>
+      <br>
+      <label>Derechos Reservados ©
+        <br>Alan George Trinidad Cruz y Alma Abri Nuñez Gonzalez
+      </label>
+    </footer>
+    <script src="proyect.js"></script>
+</body>
+</html>
